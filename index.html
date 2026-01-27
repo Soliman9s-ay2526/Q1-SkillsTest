@@ -1,166 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Afacad' rel='stylesheet'>
-    <!-- Bootstrap for table styling -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Local styles (keeps your existing styles) -->
-    <link rel="stylesheet" href="style.css">
-<title>ABOUT ME</title>
+    <background>
+        <img src="https://media.tenor.com/2bPv5PaqAdYAAAAM/spongebob-patrick.gif" alt="">
+    </background>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w calcs</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-    <div class="row">
-        <!--COLUMN 1-->
-        <div class="col-md-6">
-    <h1>I AM ANTONIO SOLIMAN...😼</h1>
-    <h2>ABOUT ME!</h2>
-    <img src="https://media.tenor.com/ZrQvzM5xqH8AAAAm/pokemon-anime.webp" alt="pokemon-anime">
-    <hr>
-    <ul>
-         <li> Antonio Soliman😼</li>
-        <li>Nickname: THE SOLI MANNN</li>
-        <li>Grade N' Section: 9-SAPPHIREEEE <img src="https://media.tenor.com/lxMAis2hwXcAAAAm/red-heart-heart.webp" alt="red heart"></li>
-        <li>Zodiac Sign: Idk lel</li>
-        <li>Birthday: OCTOBER 18, 2011!!!</li>
-        <li>Describe yourself in 1 word: AWESOME😼</li>
-        <li>in life: "The truth is I am Awesomeman"</li>
-    </ul>
-    <img src="https://media.tenor.com/Vb0rXZbAAeYAAAAM/jojo-white-album.gif" alt="jojo gif">
-    <h2>MY FAVORITE THINGSSS</h2>
-    <hr>
-    <ul>
-        <li>FAVORITE COLOR: THE BEST COLOR WHICH IS PURPLE🟪🟪🟣</li>
-        <li>Favorite food (好きな食べ物): SUSHI AND SASHIMIII</li>
-        <li>FAV SUBJECT: SOCIAL STUSTUSTUDIESSSSSS</li>
-        <li>Favorite movie AND show😼: movie: SCOTT PILGRIM VS THE WORLD! show: boogiepop phantom heh</li>
-        <li>FAVORITE SONG??: 2010 JUSTIN BIEBER by Lucy Bedroque</li>
-        <li>Favorite sport/ Activity: READING THEM COMICS</li>
-        <li>Favorite spot to chillax: MY HOMEEE <img src="https://media.tenor.com/8z3R77rOAToAAAAm/pikachu-model.webp" alt="pikachu"></li>
-    </ul>
-    <hr>
-    <h3>quick hero section intermission:</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRYRcOU_7fELHOIv95FUa6-zw9Mwcxi1tAQ&s" alt="hero image">
-    <img src="https://media.tenor.com/jOd3VasLxUEAAAAM/dj-lele.gif" alt="dj lele">
-    <div class="row bg-warning">
-    <h2>MY FRIENDSS!!</h2>
-    <table class="table table-bordered">
-        <thead>
-            <tr><!-- ROW 1 -->
-                <th>PICTURE</th>
-                <th>NAME</th>
-                <th>BDATE</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><!-- ROW 2 -->
-                <td><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3_o_h_pGXNm66y7cnZ6x1TuycoR0TYREXw&s" alt="friend" class="rounded"></td>
-                <td>CHASE THE GUZMAN!!</td>
-                <td>March 2, 2011 (THE AWESOME YEAR)</td>
-            </tr>
-            <tr><!--ROW 3 -->
-                <td><img src="data:image/jpeg;base64,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" class="rounded"></td>
-                <td>ALDRICH SAMAR!!</td>
-                <td>June 11, 2011!!</td>
-    
-            </tr>
-            <tr> <!--ROW 4-->
-                 <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqigsvrXJrwHdGBNe4DqJAY-EIVxpSsy5NzQ&s" class="rounded"></td>
-                 <td>JENNY JOOO (nickname UNSPECIFIED!!)</td>
-                 <td>idk her bday atp i just wanna quit</td>
-                </tr>
-                <tr>
-                    <td><img src="c:\Users\theballerl\Downloads\Web_Photo_Editor.jpg" class="rounded"></td>
-                    <td>DAVIDDD NIOSCO (ENLISTED ENLISTED ENLISTEDDD)</td>
-                    <td>UNKOWN BIRDAYYY</td>
-                </tr>
-        </tbody>
-        
-    </table>
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1>antonio luis t. "the man" soliman😼😼</h1>
-            <p>AN ASPIRING FILMMAKER AND GUOTARIST AND AWESOEM PERSON</p>
-        </div>
-        <!--END OF TABLE-->
-        <div class="container" id="team-box">
-          <div class="row">
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="col-12 col-md-4 col-lg-4">
-                   <div class="box">
-                      <img src="" alt="">
-                   </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <h1>PLAYLIST!!</h1>
-        <table class="table-bordered">
-            <div class="row">
-                <thead>
-                    <tr><!--ROW 1-->
-                     <th>NAME OF SONG</th>
-                     <th>NAME OF ARTIST</th>
-                     <th>IMG</th>
-                   
-                </thead>
-                 </tr>
-                 <tbody>
-                    <tr><!--ROW 2-->
-                        <th>My Spine! My Spine! My Spine!</th>
-                        <th>Combat Wounded Veteran</th>
-                        <th><img src="https://i.scdn.co/image/ab67616d00001e02e8363ae6099945cfade3109c"></th>
-                    </tr>
-                    <tr><!--ROW 3-->
-                        <th>Yesterday By The Beatles Or: As Sung By John Lennon </th>
-                        <th>Vs Self</th>
-                        <th><img src="https://i.scdn.co/image/ab67616d0000b273cd0ba84c9aeb96d5d32beb85"></th>
-                    </tr>
-                    <tr><!--ROW 4-->
-                        <th>BREEZIN'</th>
-                        <th>Masayoshi Takanaka</th>
-                        <th><img src="https://i.scdn.co/image/ab67616d0000b273863f4540e18c97fd196d1116"></th>
-                    </tr>
-                    <tr><!--ROW 5-->
-                        <th>Lose My Breath</th>
-                        <th>My Bloody Valentine</th>
-                        <th><img src="https://i1.sndcdn.com/artworks-QnToGXuxwgxU-0-t500x500.jpg"></th>
-                    </tr>
-                 </tbody>
-                 <!--END OF TABLE-->
-            </div>
-            
-       
-                   </div>
-                </div>
-            </div>
-          </div>
-        </div>
-            </div>
-        </table>
-    </div>
-</div>
-</div>
-</div>
-</div>
-   <div class="container" id="team-box">
-          <div class="row">
-            <h1 class="text-center">OUR TEAM!!</h1>
-            <div class="col-12 col-md-4 col-lg-4">
-                <div class="box-p3 h-100 rounded">
-                    <img src="https://tenor.com/vSeOjdoaNq8.gif" alt="Chase">
-                    <h3>Marketing Director</h3>
-                    <p>Chase</p>
-                </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4">
-                   <div class="box-p3">
-                      <img src="" alt="Aldrich">
-                      <h3>Front End Developer</h3>
-                      <p>Aldrich</p>
-                      </div>
-                      
+    <h1 id="welcome_sign">BASIC CALC</h1>
+    <P id="status">CLICK IT NOW!!!</P>
+    <p id="prod">this da anser</p>
+    <button type="button" onclick = "document.getElementById('prod').innerHTML = spongebob;">this answer</button>
+    <script>
+        //  Declare variable 
+        <!-- DECLARE VARIABLES --> 
+        let me= 4;
+        let derpy= 6;
+        let spongebob = me * derpy;
+    </script>
+
 </body>
 </html>
